@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AgentValorant" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#242e42</item>
+        <item name="android:windowBackground">#242e42</item>
+        <item name="colorPrimaryDark">#ebf1f4</item>
+        <item name="colorPrimary">#ebf1f4</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/dark</item>
+    </style>
+
+    <style name="CustomCardview" parent="CardView">
+        <item name="cardBackgroundColor">#2f3b52</item>
+    </style>
+
+    <style name="CustomTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#124c91</item>
+    </style>
+</resources>
